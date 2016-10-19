@@ -1,0 +1,154 @@
+
+/* 
+* Author: Joshua Rodriguez
+* Contact: joshua_rodriguez@student.uml.edu
+* UMass Lowell student in GUI Programming 1 
+* Date Created: 10.03.2016
+* styling page for index.html
+*/
+
+/* setting overall width of page, centering and background */
+body {
+   min-width: 720px;
+   max-width: 1020px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: linear-gradient(white, green 75%);
+}
+
+/* main display header - setting positions and color */
+.main_header {
+   width: 380px;
+   margin-left: auto;
+   margin-right: auto;
+   border-bottom-style: solid;
+   border-top-style: solid;
+   padding: 10px;
+   font-size: 200%;
+   color: blue;
+}
+
+/* the main content of the screen - putting to the right */
+.main_content {
+   width: 700px;
+   float: right;
+   font-family: Cambria;
+}
+
+/* Course info section inside main content */
+.course_info {
+   width: 350px;
+   float: right; 
+}
+
+/* dictionary element inside course info section for positioning */
+dl {
+   margin-left: auto;
+   margin-right: auto;
+   width: 250px;
+}
+
+/* Interest section inside main content */
+.interests {
+   width: 350px;
+   float: right;
+}
+
+/* accesses list inside interest section*/
+.interest_list {
+   margin-left: auto;
+   margin-right: auto;
+   width: 150px;
+   
+}
+
+/* changing interest list item spacing */
+.interest_item {
+   margin: 0 0 10px 0;
+}
+
+
+/* accessing course terms */
+dt::first-letter {
+   font-size: x-large;
+}
+
+/* accessing course definitions */
+dd {
+   font-family: cursive;
+   width: 250px;
+}
+
+/* accesses all main content headers */
+h3 {
+   color: blue;
+   font-size: 160%;
+   margin: 5px;
+   width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* accesses about me header */
+.header_about_me {
+   width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* setting position for about me paragraph */
+.about_me {
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* assignment navigation section for all assignments and in class exercises */
+.assignment_nav {
+   width: 250px;
+   padding-top: 5px;
+   float: right;
+   background-image: linear-gradient(darkgray, lightgray 75%);
+}
+
+/*only header is assignment column header */
+header {
+   color: blue;
+   font-size: 125%;
+   margin: 5px;
+   width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   font-weight: bold;
+}
+
+/* chaging style of each assignment link */
+a {
+   text-decoration: none;
+   color: black;
+}
+
+/* give a different look when hovering to know it's a link */
+a:hover {
+   color: purple;
+}
+
+/* changing spacing and size of assignment link text */
+.assignment {
+   margin: 0 0 10px 0;
+   font-size: 108%;
+   width: 150px;
+}
+
+/* removing bullets from assignment links */
+.assignment_list {
+   list-style: none;
+   
+}
+
+/* position badges */
+footer {
+   float: right;
+   height: 300px;
+   padding-top: 300px;
+}
